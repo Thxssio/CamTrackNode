@@ -26,8 +26,8 @@ Y = "\033[0;33m"  # yellow (info)
 
 rospy.init_node("camtrack")
 
-os.system = 'source ~/Documentos/OpenNI-Linux-x64-2.3/OpenNIDevEnvironment'
-rospy.logwarn("source ~/Documentos/OpenNI-Linux-x64-2.3/OpenNIDevEnvironment")
+os.system = 'source ~/camtrack/OpenNI-Linux-x64-2.3/OpenNIDevEnvironment'
+rospy.logwarn("source ~/camtrack/OpenNI-Linux-x64-2.3/OpenNIDevEnvironment")
 
 
 
